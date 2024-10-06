@@ -137,6 +137,5 @@ dmypy.json
 eb-package.zip
 static/
 
-
 # SSH
 .ssh
