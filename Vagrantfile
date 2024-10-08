@@ -6,6 +6,8 @@
 # backwards compatibility). Please don't change it unless you know what
 # you're doing.
 Vagrant.configure("2") do |config|
+    #Asing name machine virtual.
+ #config.vm.define "vm1" do |vm1|
  # The most common configuration options are documented and commented below.
  # For a complete reference, please see the online documentation at
  # https://docs.vagrantup.com.
@@ -31,4 +33,5 @@ Vagrant.configure("2") do |config|
      echo "alias python='python3'" >> /home/vagrant/.bash_aliases
    fi
  SHELL
+
 end
